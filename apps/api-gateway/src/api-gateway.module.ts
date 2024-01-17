@@ -13,7 +13,7 @@ import { BILLING_CLIENT_ID, BILLING_SERVICE } from 'common';
         options: {
           client: {
             clientId: BILLING_CLIENT_ID,
-            brokers: ['localhost:9092'],
+            brokers: ['kafka:29092'],
           },
           consumer: {
             groupId: 'billing-consumer',

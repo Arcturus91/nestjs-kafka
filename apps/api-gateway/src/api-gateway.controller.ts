@@ -14,6 +14,5 @@ export class ApiGatewayController {
   @Post()
   createOrder(@Body() createOrderRequest: CreateOrderRequest) {
     this.apiGatewayService.createOrder(createOrderRequest);
-    
   }
 }

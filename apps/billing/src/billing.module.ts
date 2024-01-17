@@ -13,7 +13,7 @@ import { AUTH_CLIENT_ID, AUTH_SERVICE } from 'common';
         options: {
           client: {
             clientId: AUTH_CLIENT_ID,
-            brokers: ['localhost:9092'],
+            brokers: ['kafka:29092'],
           },
           consumer: {
             groupId: 'auth-consumer',
